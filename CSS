@@ -1,0 +1,53 @@
+body { 
+display: block;
+text-align: center;
+margin:0 auto;
+background-color: #1b1b32;
+color: #f5f6f7;
+font-size: 16px;
+padding: 1.5rem;
+ }
+ h1, p { 
+   margin: auto;
+   text-align: center;
+ }
+ label { 
+   margin: auto;
+   width: 0 0 0 0 auto;
+ }
+ button {
+   color: blue;
+   background-color: black;
+   width: 50%;
+   font-size: 16px; 
+  }
+  survey-form {
+    width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+  }
+  submit {
+    margin: 0 auto;
+    width: 10%;
+    margin-left: auto;
+margin-right: auto;
+margin-bottom: 10 auto;
+margin-top: 10 auto
+  }
+  input[type="submit"] {
+display: block;
+margin: 1em auto;
+background-color: black;
+color: red; 
+}
+textarea {
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10 auto;
+margin-top: 10 auto;
+display: block;
+}

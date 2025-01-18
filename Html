@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Who's The best Lyrical MC</title>
+    <link rel="stylesheet" href="styles.css">
+  </head> 
+<body>
+  <h1 id="title">Who's The best Lyrical MC</h1>
+    <br>
+  <p id="description">Please fill out the form to voice your opinion</p>
+    <br>
+  <form id="survey-form">
+  <div class="Survey-form"></div>
+</body>
 
+  <label for="name-label" id="name-label">Name: <input id="name" name="name" type="text" placeholder="James bond" required></label>
+  <label for="email" id="email-label">Email<input id="email" name="email" type="email" placeholder="jamesbond@gmail.com" required/></label>
+  <label for="number-label" id="number-label">Age<input id="number" type="number" min="16"
+  max="120" placeholder="25" required/></label>
+
+  <br>
+  <br>
+  <div class="radio-button">
+    <p> Out of these artist who's your favorite?</p>
+      <br>
+<label class="radio-button">Jay-z<input type="radio" id="Jay-z" name="artist" value="jay-z" checked /></label>
+<label class="radio-button">Eminem<input type="radio" id="eminem" name="artist" value="eminem" />
+<label class="radio-button">Lil Wayne<input type="radio" id="lil-wayne" name="artist" value="lil-wayne" /></label>
+<label class="radio-button">J Cole<input type="radio" id="j-cole" name="artist" value="j-cole" /></label>
+<label class="radio-button">Kendrick Lamar<input type="radio" id="kendrick-lamar" name="artist" value="kendrick-lamar" /></label>
+<label class="radio-button">JID<input type="radio" id="jid" name="artist" value="radio"/></label>
+  </div>
+    <br>
+  <p>Who has better word play?</p>
+  <label>
+<select id="dropdown">
+  <option value="">select one</option>
+  <option value="1">JID</option>
+  <option value="2">J Cole</option>
+  <option value="3">Eminem</option>
+  <option value="4">Jay-z</option>
+  <option value="5">Nas</option>
+  <option value="6">lil Wayne</option>
+</select></label>
+<br>
+<br>
+<div class="radio-button">
+  <p>Who's the GOAT?</p>
+  <label>
+     <br>
+    <p>Eminem</p>
+  <label for="yes"><input type="radio" id="yes" name="yes" value="yes" checked required />Yes
+  <label for="no"><input type="radio" id="no" name="no" value="no"required />No
+  <p>Jay-z</p>
+  <label for="yes"><input type="radio" id="yes" name="yes" value="yes"required />Yes</label>
+  <label for="no"><input type="radio" id="no" name="no" value="0" required />No</label>
+  <p>lil Wayne</p>
+  <label for="yes"><input type="radio" id="yes" name="yes" value="0" required />Yes</label>
+  <label for="no"><input type="radio" id="no" name="no" value="0" required />No</label>
+  <p>J Cole</p>
+  <label for="yes"><input type="radio" id="yes" name="yes" value="0" required />Yes</label>
+  <label for="no"><input type="radio" id="no" name="no" value="0"required />No</label>
+  <p>JID</p>
+  <label for="yes"><input type="radio" id="yes" name="yes" value="yes" required />Yes</label>
+  <label for="no"><input  type="radio" id="no" name="no" value="no" required />No</label>
+  <p>Kendrick Lamar</p>
+  <label for="yes"><input type="radio" id="yes" name="yes" value="yes" required />Yes</label>
+  <label for="no"><input type="radio" id="no" name="no" value="no" required />No</label>
+
+  <br>
+  <br>
+    <p>Out of your favorite artist, which category whould you place them as?</P>
+    <label for="category"><input type="radio" id="rapper" name="category" value="rapper"/>Rapper</label>
+    <label for="category"><input type="radio" id="lyrical-mc" name="category" value="lyrical-mc"/>Lyrical MC</label>
+  
+</div>
+<br>
+<br>
+<p>Would you like to participate in more surveys like this?:</P>
+<label class="checkbox"></label>
+ <label><input type="checkbox" value="yes">Yes</label>
+ <label><input type="checkbox" value="no">No></label>
+       <div class="feedback">
+           <br>
+       <p>Feedback:</p>
+       <textarea id="comments" name="comments" placeholder="Enter Your Comment"></textarea>
+         </div>
+</div>
+  <br>
+         <div class="ending">
+         <p>Thank you for filling up my survey, please submit using the button bellow :</p>
+           <br>
+         <button type="submit" id="submit">Submit</button><!--submit button-->
+         </div>
+         </form>
+         </html>
